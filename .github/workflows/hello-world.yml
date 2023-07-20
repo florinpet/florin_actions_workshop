@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Greet the user
-        run: echo "Hello Florin"
-        uses: actions/checkout@v2
-        run: ls -l
+      - run: echo "Hello Florin"
+      - run: ls -l
+      - uses: actions/checkout@v2
+      - run: ls -l
